@@ -23,8 +23,8 @@ let transporter = nodemailer.createTransport({
 let mailOptions = {
     from: 'tomerpacific@gmail.com',
     to: 'blackcarrera@msn.com',
-    subject: 'Nodemailer Project',
-    text: 'Sent from Nodemailer Project @ 18:15'
+    subject: 'Node eMailer',
+    text: 'Sent from Node eMailer Project @ 18:20'
 };
 
 transporter.sendMail(mailOptions, function (err, data) {
